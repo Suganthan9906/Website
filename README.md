@@ -1,49 +1,97 @@
-HTML Files
-1. about.html
-Description: This file provides an overview of the hackathon. It contains a detailed description of the event, its purpose, and key information about what participants can expect.
-Main Sections:
-Header with navigation menu.
-Centered heading ("About Crackathon").
-Paragraph with detailed information about the event.
-Links:
-Navigation to Home, About, and Contact pages via a navbar.
-Uses hack.css and an additional about.css for page-specific styles.
-2. contact.html
-Description: This file contains the contact details of the organization managing the hackathon. It provides the office address, email, and phone number.
-Main Sections:
-Header with navigation menu.
-Centered heading ("Contact Us").
-Office Address section.
-Contact Information section with email and phone details.
-Links:
-Navigation to Home, About, and Contact pages via a navbar.
-Uses hack.css and an additional contact.css for page-specific styles.
-3. register.html (Planned)
-Description: This file will allow participants to register for the hackathon.
-Main Sections:
-Registration form with fields such as:
-Full Name.
-Email Address.
-Phone Number.
-Team Name (optional).
-Submit button.
-Links:
-Navigation to Home, About, Contact, and Register pages via a navbar.
-Will use hack.css and an additional register.css for styling the form.
-CSS Files
-1. hack.css
-Description: The main CSS file for the project that provides the base styling for all pages.
-Key Features:
-Sets global styles (e.g., resets margins, paddings, and box-sizing).
-Defines the body background with a full-screen image.
-Styles the navbar, including hover effects and active states for links.
-Provides basic typography settings for headings and text.
-Sources
-Below are links to helpful references for improving and managing your HTML and CSS files:
 
-HTML Resources:
-HTML Documentation - MDN Web Docs
-W3Schools HTML Tutorial
-CSS Resources:
-CSS Documentation - MDN Web Docs
-W3Schools CSS Tutorial
+ Crackathon 
+An interactive web-based platform for hackathon enthusiasts, providing essential information about the event, contact details, and a registration portal for participants.
+
+
+
+
+This repository includes the following files and directories:
+
+ HTML Files:
+1. **`about.html`**:
+   - **Purpose**: Introduces the hackathon, its objectives, and key details.
+   - **Structure**:
+     - A navbar linking to Home, About, and Contact pages.
+     - Heading: "About Crackathon".
+     - Informative paragraph about the event.
+   - **Associated Styles**: `hack.css`, `about.css`.
+
+2. **`contact.html`**:
+   - **Purpose**: Displays contact information for inquiries.
+   - **Structure**:
+     - A navbar linking to Home, About, and Contact pages.
+     - Office address and contact details (email and phone).
+   - **Associated Styles**: `hack.css`, `contact.css`.
+
+3. **`register.html`** (Planned):
+   - **Purpose**: Allows participants to register for the hackathon.
+   - **Structure**:
+     - A navbar linking to all pages.
+     - A form with fields like Full Name, Email, Phone Number, and Team Name.
+     - Submit button.
+   - **Associated Styles**: `hack.css`, `register.css` (to be created).
+
+---
+
+### CSS Files:
+1. **`hack.css`**:
+   - **Purpose**: Defines global and reusable styles for the entire website.
+   - **Key Features**:
+     - Resets margins and paddings for all elements.
+     - Sets a responsive background image for the body.
+     - Styles the navbar, including hover effects for navigation links.
+     - Typography settings for headings, text, and buttons.
+
+2. **`about.css`** (Planned):
+   - **Purpose**: Provides page-specific styling for `about.html`.
+   - **Key Features**:
+     - Customizes the layout of the About section.
+     - Enhances typography and text spacing for readability.
+
+3. **`contact.css`** (Planned):
+   - **Purpose**: Provides page-specific styling for `contact.html`.
+   - **Key Features**:
+     - Styles the office address and contact information.
+     - Adds spacing and alignment for a clean layout.
+
+4. **`register.css`** (Planned):
+   - **Purpose**: Provides page-specific styling for `register.html`.
+   - **Key Features**:
+     - Styles the registration form.
+     - Aligns input fields, buttons, and labels for usability.
+
+---
+
+## Usage Instructions 
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/crackathon.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd crackathon
+   ```
+
+3. **Open Files in a Browser**:
+   - Open `about.html` to view information about the hackathon.
+   - Open `contact.html` to find contact details.
+   - Once created, open `register.html` to register for the event.
+
+---
+
+## Planned Features 
+
+1. **Registration Page**:
+   - A user-friendly form for participants to register for the event.
+   - Validation for required fields.
+
+2. **Enhanced Styling**:
+   - Unique CSS for each page to improve user experience.
+
+3. **Responsiveness**:
+   - Ensure the website looks great on mobile, tablet, and desktop devices.
+
+---
+
