@@ -1,6 +1,6 @@
 
  Crackathon 
-An interactive web-based platform for hackathon enthusiasts, providing essential information about the event, contact details, and a registration portal for participants.
+An interactive web-based platform for hackathon enthusiasts, providing essential information about the event, contact details, and a registration portal for participants using HTML and CSS.
 
 
 
